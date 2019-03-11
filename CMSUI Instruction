@@ -1,1 +1,8 @@
 cmsui instructions
+Login in the user@cmsui04.na.infn.it
+If you want to set a new password execute the command passwd
+If you want to set the csh enviroment execute the command tcsh
+Set the cms enviroment with the command source /cvmfs/cms.cern.ch/cmsset_default.sh(.csh)
+This allows you to install a cms release using cmsrel CMSSW_X_Y_Z
+Then you can do cmsenv
+and finally scram b -j 4 to compile
